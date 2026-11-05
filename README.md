@@ -70,11 +70,6 @@ python amazon-review-insights/scripts/review_tool.py prepare my-reviews.xlsx oth
 
 验证器能发现引文不在原文、漏分析、重复标注、旧数据指纹等问题，**不能证明模型解释一定正确**。仍需抽查语义和具体建议。样本提及率也不是全体买家的问题发生率。
 
-## 上传到 GitHub
-
-在 GitHub 创建仓库后，将本目录内容放在仓库根目录上传：`README.md`、`LICENSE`、`requirements.txt`、`.gitignore`、技能目录、`examples` 与 `tests`。无需上传外层 ZIP。
-
-本包不含真实客户评论、原参考截图、密钥或个人路径。不要默认将未来的 `work/`、`private-data/`、`generated/` 或客户报告提交到公开仓库。`.gitignore` 只是防误提交的辅助，发布前仍需检查暂存文件。
 
 ## 许可
 
