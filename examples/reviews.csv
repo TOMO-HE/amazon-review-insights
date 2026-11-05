@@ -1,0 +1,7 @@
+Review ID,ASIN,Title,Content,Variant,Date,Rating,Verified Purchase,Helpful,Photo URLs,Video URLs
+demo-1,DEMO-SILVER,Useful but short runtime,"The light is bright for recording videos, but it dies in twenty minutes. I bought it for filming.",Silver,"Reviewed in the United States on October 1, 2026",4,YES,2,,
+demo-2,DEMO-BLACK,Please improve the ring,"The adhesive ring falls off. Please include a stronger adhesive ring. I bought this as a gift for my wife.",Black,2026-10-02,2,YES,1,,
+demo-3,DEMO-SILVER,Wrong item context,This is a review of the camera handle and its coin battery.,Silver,2026-10-03,3,NO,0,,
+demo-4,DEMO-BLACK,Love it,Love it.,Black,2026-10-04,5,YES,0,,
+demo-5,DEMO-SILVER,=DEMO(),"A safe literal string: </script><script>window.injected=true</script>. The light is bright.",Silver,,unknown,,0,example-image,
+demo-1,DEMO-SILVER,Useful but short runtime,"The light is bright for recording videos, but it dies in twenty minutes. I bought it for filming.",Silver,"Reviewed in the United States on October 1, 2026",4,YES,2,,

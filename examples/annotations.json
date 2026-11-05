@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "review_set_sha256": "5f399df5c40c15c408c13c43c169a8f2c2bdc6062a99dd61a1c4382912aabfa9",
+  "report": {
+    "title": "合成示例 · 便携补光灯评论洞察",
+    "summary": "本报告仅演示流程。虚构评论同时包含灯光优点、续航问题和贴环需求，不能用于任何实际商品决策。",
+    "recommendations": [
+      {
+        "text": "验证连续拍摄下的运行时间。",
+        "support_ids": [
+          "demo-1"
+        ]
+      },
+      {
+        "text": "评估贴环胶粘固定和备用配件。",
+        "support_ids": [
+          "demo-2"
+        ]
+      }
+    ]
+  },
+  "decisions": [
+    {
+      "id": "demo-1",
+      "status": "analyzed",
+      "summary": "补光明亮，但录制时续航不足。",
+      "observations": [
+        {
+          "kind": "aspect",
+          "label": "灯光",
+          "evidence": [
+            {
+              "field": "body",
+              "quote": "The light is bright"
+            }
+          ],
+          "sentiment": "positive"
+        },
+        {
+          "kind": "aspect",
+          "label": "续航",
+          "evidence": [
+            {
+              "field": "body",
+              "quote": "dies in twenty minutes"
+            }
+          ],
+          "sentiment": "negative"
+        },
+        {
+          "kind": "scenario",
+          "label": "视频录制",
+          "evidence": [
+            {
+              "field": "body",
+              "quote": "recording videos"
+            }
+          ]
+        },
+        {
+          "kind": "motive",
+          "label": "拍摄补光",
+          "evidence": [
+            {
+              "field": "body",
+              "quote": "I bought it for filming."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-2",
+      "status": "analyzed",
+      "summary": "贴环脱落，明确希望更强胶粘固定；为妻子买礼物。",
+      "observations": [
+        {
+          "kind": "aspect",
+          "label": "贴环胶粘",
+          "evidence": [
+            {
+              "field": "body",
+              "quote": "The adhesive ring falls off."
+            }
+          ],
+          "sentiment": "negative"
+        },
+        {
+          "kind": "need",
+          "label": "更可靠的贴环",
+          "evidence": [
+            {
+              "field": "body",
+              "quote": "Please include a stronger adhesive ring."
+            }
+          ]
+        },
+        {
+          "kind": "motive",
+          "label": "亲友送礼",
+          "evidence": [
+            {
+              "field": "body",
+              "quote": "I bought this as a gift for my wife."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-3",
+      "status": "excluded",
+      "reason": "主要谈摄影手柄，不纳入补光灯主题。",
+      "observations": []
+    },
+    {
+      "id": "demo-4",
+      "status": "analyzed",
+      "summary": "泛泛表示喜欢，没有明确功能证据。",
+      "observations": []
+    },
+    {
+      "id": "demo-5",
+      "status": "analyzed",
+      "summary": "保留特殊字符作为普通文本，未评分；肯定灯光。",
+      "observations": [
+        {
+          "kind": "aspect",
+          "label": "灯光",
+          "evidence": [
+            {
+              "field": "body",
+              "quote": "The light is bright."
+            }
+          ],
+          "sentiment": "positive"
+        }
+      ]
+    }
+  ]
+}

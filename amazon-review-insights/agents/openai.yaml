@@ -1,0 +1,4 @@
+interface:
+  display_name: "亚马逊评论洞察"
+  short_description: "从评论文件提取主题与原文证据，生成可筛选、可核对的中文 VOC 风格报告"
+  default_prompt: "使用 $amazon-review-insights 分析我提供的评论文件，生成带原文依据和明确统计口径的交互报告。"
