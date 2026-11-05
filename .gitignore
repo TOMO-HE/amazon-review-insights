@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+work/
+private-data/
+generated/
+.env
+.env.*
+!.env.example
